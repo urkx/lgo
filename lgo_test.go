@@ -16,3 +16,7 @@ func TestError(t *testing.T) {
 func TestInfo(t *testing.T) {
 	fmt.Print(Info("Info"))
 }
+
+func TestLogFormatter(t *testing.T) {
+	Log(Info, "Log formatter")
+}
