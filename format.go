@@ -1,5 +1,5 @@
 package lgo
 
-func makeFormatString(tag string) string {
-	return tag + "%v\n"
+func makeFormatString(tag Tag) string {
+	return string(tag) + "%v\n"
 }
